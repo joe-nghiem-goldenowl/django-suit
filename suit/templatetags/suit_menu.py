@@ -39,8 +39,9 @@ def get_menu(context, request):
                 from django.contrib import admin
                 template_response = get_admin_site(request.current_app).index(request)
                 available_apps = template_response.context_data['app_list']
-            except Exception:
-                pass
+            except Exception as e:
+                print(e)
+                available_apps = []
 
     if not available_apps:
         logging.warn('Django Suit was unable to retrieve apps list for menu.')
