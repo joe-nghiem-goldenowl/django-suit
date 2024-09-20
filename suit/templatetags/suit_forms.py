@@ -129,3 +129,7 @@ def suit_form_field_placeholder(field, placeholder):
     """
     field.field.widget.attrs['placeholder'] = placeholder
     return field
+
+@register.simple_tag
+def define_value(val=None):
+    return val
