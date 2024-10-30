@@ -2898,7 +2898,7 @@ body.dashboard .deletelink:before { content: ""; color: #E04F3C; }
 
 #changelist #changelist-form .actions span.all, #changelist #changelist-form .actions span.action-counter, #changelist #changelist-form .actions span.clear, #changelist #changelist-form .actions span.question { font-size: 13px; margin: 0 0.5em; display: none; }
 
-.suit_toggle_changelist_top_actions #changelist #changelist-form .actions { display: none; }
+/* .suit_toggle_changelist_top_actions #changelist #changelist-form .actions { display: none; } */
 
 #changelist #changelist-form .results + .actions { margin: 1rem 0 0; }
 

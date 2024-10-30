@@ -40,11 +40,11 @@ window.Suit = Suit;
         };
 
         var checkIfSelected = function () {
-            if ($('tr.selected').length) {
-                $topActions.slideDown('fast');
-            } else {
-                $topActions.slideUp('fast');
-            }
+            // if ($('tr.selected').length) {
+            //     $topActions.slideDown('fast');
+            // } else {
+            //     $topActions.slideUp('fast');
+            // }
         };
 
         return {
